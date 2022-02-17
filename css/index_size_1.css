@@ -1,0 +1,75 @@
+:root{
+    --text-color:none;
+    --soft-color:none;
+    --dark-color:none;
+    --border-color:none;
+    --card-color:none;
+    --film-color:none;
+}
+
+* {
+padding: 0%;
+margin: 0%;
+}
+
+@media screen and (max-width: 800px){
+	#intro-window{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 1fr 1fr;
+    }
+    #image-theme {
+        grid-column: 1/3;
+        text-align: center;
+        font-family: Teko, sans-serif;
+    }
+    #what-i-do-wrapper {
+        grid-column: 1/3;
+        margin: 0 auto;
+        width: 300px;
+    }
+    #approch{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: max-content 1fr;
+        justify-content: center;
+        align-items: center;
+        background-position: 0px 300px;
+    }
+    #approch-image{
+        text-align: center;
+    }
+    #approch img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #approch-text{
+        padding: 0px 20px;
+    }
+    #about #text{
+        width: 90vw;
+        
+    }
+    #about #how-i-can-help {
+        width: 90vw;
+    }
+    #skills{
+        width: 90vw;
+    }
+    /* project-1======== */
+    .project-1{
+        width: 100%;
+    }
+    .project-content-1{
+        grid-column: 5/13;
+        grid-row: 1/2;
+    }
+    /* project-2======== */
+    .project-1{
+        width: 100%;
+    }
+    .project-content-1{
+        grid-column: 5/13;
+        grid-row: 1/2;
+    }
+
+}
